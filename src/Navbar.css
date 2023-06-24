@@ -1,0 +1,725 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+.navbar-toggler-icon{
+  background-color: white;
+}
+.form-control{
+  position:relative;
+}
+.ram{
+  position:absolute;
+  left:834px
+
+}
+.cart{
+  font-size:25px;
+  font-weight:900;
+}
+.tea{
+  display: flex;
+  align-items: center;
+}
+body{
+  background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)),url('https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.result{
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(0,0,0,0.6);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.shafad:hover{
+  box-shadow: 2px 2px 3px white;
+}
+.Link:hover{
+  /* box-shadow: 5px 5px 4px white; */
+  color: orange;
+}
+.Link{
+  text-decoration: none;
+  color: white;
+}
+@media (max-width:1280px){
+  .ram{
+    left: 833px;
+  }
+}
+
+@media (max-width:1261px){
+  .ram{
+    left: 815px;
+  }
+}
+
+
+@media (max-width:1254px){
+  .ram{
+    left: 809px;
+  }
+}
+
+@media (max-width:1246px){
+  .ram{
+    left: 804px;
+  }
+}
+
+@media (max-width:1240px){
+  .ram{
+    left: 801px;
+  }
+}
+
+@media (max-width:1233px){
+  .ram{
+    left: 797px;
+  }
+}
+
+@media (max-width:1225px){
+  .ram{
+    left: 792px;
+  }
+}
+
+@media (max-width:1220px){
+  .ram{
+    left: 789px;
+  }
+}
+
+@media (max-width:1212px){
+  .ram{
+    left: 784px;
+  }
+}
+
+@media (max-width:1205px){
+  .ram{
+    left: 773px;
+  }
+}
+
+@media (max-width:1198px){
+  .ram{
+    left: 775px;
+  }
+}
+
+@media (max-width:1190px){
+  .ram{
+    left: 772px;
+  }
+}
+
+@media (max-width:1183px){
+  .ram{
+    left: 764px;
+  }
+}
+
+@media (max-width:1172px){
+  .ram{
+    left: 753px;
+  }
+}
+
+@media (max-width:1166px){
+  .ram{
+    left: 757px;
+  }
+}
+
+@media (max-width:1160px){
+  .ram{
+    left: 754px;
+  }
+}
+
+@media (max-width:1155px){
+  .ram{
+    left: 749px;
+  }
+}
+
+@media (max-width:1144px){
+  .ram{
+    left: 743px;
+  }
+}
+@media (max-width:1130px){
+  .ram{
+    left: 739px;
+  }
+}
+@media (max-width:1122px){
+  .ram{
+    left: 734px;
+  }
+}
+@media (max-width:1114px){
+  .ram{
+    left: 730px;
+  }
+}
+@media (max-width:1107px){
+  .ram{
+    left: 727px;
+  }
+}
+@media (max-width:1100px){
+  .ram{
+    left: 724px;
+  }
+}
+@media (max-width:1096px){
+  .ram{
+    left: 720px;
+  }
+}
+@media (max-width:1090px){
+  .ram{
+    left: 715px;
+  }
+}
+@media (max-width:1080px){
+  .ram{
+    left: 709px;
+  }
+}
+@media (max-width:1073px){
+  .ram{
+    left: 704px;
+  }
+}
+@media (max-width:1064px){
+  .ram{
+    left: 700px;
+  }
+}
+@media (max-width:1056px){
+  .ram{
+    left: 696px;
+  }
+}
+@media (max-width:1050px){
+  .ram{
+    left: 692px;
+  }
+}
+@media (max-width:1045px){
+  .ram{
+    left: 687px;
+  }
+}
+@media (max-width:1036px){
+  .ram{
+    left: 683px;
+  }
+}
+@media (max-width:1030px){
+  .ram{
+    left: 678px;
+  }
+}
+@media(max-width:1024px){
+  .ram{
+    left: 630px;
+  }
+}
+@media (max-width:1021px){
+  .ram{
+    left: 676px;
+  }
+}
+@media (max-width:1017px){
+  .ram{
+    left: 670px;
+  }
+}
+@media (max-width:1008px){
+  .ram{
+    left: 665px;
+  }
+}
+@media (max-width:1000px){
+  .ram{
+    left: 650px;
+  }
+}
+@media (max-width:991px){
+  .ram{
+    left: 944px;
+  }
+  .mew{
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width:987px){
+  .ram{
+    left: 938px;
+  }
+  .tea{
+    display: flex;
+  }
+}
+@media (max-width:987px){
+  .ram{
+    left: 933px;
+  }
+}
+@media (max-width:975px){
+  .ram{
+    left: 925px;
+  }
+}
+@media (max-width:968px){
+  .ram{
+    left: 920px;
+  }
+}
+@media (max-width:963px){
+  .ram{
+    left: 910px;
+  }
+}
+@media (max-width:954px){
+  .ram{
+    left: 902px;
+  }
+}
+@media (max-width:947px){
+  .ram{
+    left: 897px;
+  }
+}
+@media (max-width:941px){
+  .ram{
+    left: 890px;
+  }
+}
+@media (max-width:932px){
+  .ram{
+    left: 878px;
+  }
+}
+@media (max-width:921px){
+  .ram{
+    left: 871px;
+  }
+}
+@media (max-width:915px){
+  .ram{
+    left: 865px;
+  }
+}
+@media (max-width:909px){
+  .ram{
+    left: 855px;
+  }
+}
+@media (max-width:899px){
+  .ram{
+    left: 845px;
+  }
+}
+@media (max-width:889px){
+  .ram{
+    left: 835px;
+  }
+}
+@media (max-width:879px){
+  .ram{
+    left: 828px;
+  }
+}
+@media (max-width:871px){
+  .ram{
+    left: 817px;
+  }
+}
+@media (max-width:860px){
+  .ram{
+    left: 807px;
+  }
+}
+@media (max-width:851px){
+  .ram{
+    left: 798px;
+  }
+}
+@media (max-width:842px){
+  .ram{
+    left: 788px;
+  }
+}
+@media (max-width:832px){
+  .ram{
+    left: 778px;
+  }
+}
+@media (max-width:822px){
+  .ram{
+    left: 768px;
+  }
+}
+@media (max-width:812px){
+  .ram{
+    left: 758px;
+  }
+}
+@media (max-width:802px){
+  .ram{
+    left: 748px;
+  }
+}
+@media (max-width:791px){
+  .ram{
+    left: 738px;
+  }
+}
+@media (max-width:781px){
+  .ram{
+    left: 728px;
+  }
+}
+@media (max-width:772px){
+  .ram{
+    left: 718px;
+  }
+}
+@media (max-width:762px){
+  .ram{
+    left: 708px;
+  }
+}
+@media (max-width:752px){
+  .ram{
+    left: 698px;
+  }
+}
+@media (max-width:742px){
+  .ram{
+    left: 688px;
+  }
+}
+@media (max-width:732px){
+  .ram{
+    left: 678px;
+  }
+}
+@media (max-width:722px){
+  .ram{
+    left: 668px;
+  }
+}
+@media (max-width:712px){
+  .ram{
+    left: 658px;
+  }
+}
+@media (max-width:702px){
+  .ram{
+    left: 648px;
+  }
+}
+@media (max-width:692px){
+  .ram{
+    left: 638px;
+  }
+}
+@media (max-width:682px){
+  .ram{
+    left: 628px;
+  }
+}
+@media (max-width:672px){
+  .ram{
+    left: 618px;
+  }
+}
+@media (max-width:662px){
+  .ram{
+    left: 608px;
+  }
+}
+@media (max-width:652px){
+  .ram{
+    left: 598px;
+  }
+}
+@media (max-width:642px){
+  .ram{
+    left: 588px;
+  }
+}
+@media (max-width:632px){
+  .ram{
+    left: 578px;
+  }
+}
+@media (max-width:622px){
+  .ram{
+    left: 568px;
+  }
+}
+@media (max-width:612px){
+  .ram{
+    left: 558px;
+  }
+}
+@media (max-width:602px){
+  .ram{
+    left: 548px;
+  }
+}
+@media (max-width:592px){
+  .ram{
+    left: 538px;
+  }
+}
+@media (max-width:582px){
+  .ram{
+    left: 528px;
+  }
+}
+@media (max-width:572px){
+  .ram{
+    left: 518px;
+  }
+}
+@media (max-width:562px){
+  .ram{
+    left: 508px;
+  }
+}
+@media (max-width:552px){
+  .ram{
+    left: 498px;
+  }
+}
+@media (max-width:542px){
+  .ram{
+    left: 488px;
+  }
+}
+@media (max-width:532px){
+  .ram{
+    left: 478px;
+  }
+}
+@media (max-width:522px){
+  .ram{
+    left: 468px;
+  }
+}
+@media (max-width:512px){
+  .ram{
+    left: 458px;
+  }
+}
+@media (max-width:502px){
+  .ram{
+    left: 448px;
+  }
+}
+@media (max-width:492px){
+  .ram{
+    left: 438px;
+  }
+}
+@media (max-width:482px){
+  .ram{
+    left: 428px;
+  }
+}
+@media (max-width:472px){
+  .ram{
+    left: 418px;
+  }
+}
+@media (max-width:462px){
+  .ram{
+    left: 408px;
+  }
+}
+@media (max-width:452px){
+  .ram{
+    left: 398px;
+  }
+}
+@media (max-width:442px){
+  .ram{
+    left: 388px;
+  }
+}
+@media (max-width:432px){
+  .ram{
+    left: 378px;
+  }
+}
+@media (max-width:422px){
+  .ram{
+    left: 368px;
+  }
+}
+@media (max-width:412px){
+  .ram{
+    left: 358px;
+  }
+}
+@media (max-width:402px){
+  .ram{
+    left: 348px;
+  }
+}
+@media (max-width:392px){
+  .ram{
+    left: 338px;
+  }
+}
+@media (max-width:382px){
+  .ram{
+    left: 328px;
+  }
+}
+@media (max-width:372px){
+  .ram{
+    left: 318px;
+  }
+}
+@media (max-width:362px){
+  .ram{
+    left: 308px;
+  }
+}
+@media (max-width:352px){
+  .ram{
+    left: 298px;
+  }
+}
+@media (max-width:342px){
+  .ram{
+    left: 288px;
+  }
+}
+@media (max-width:332px){
+  .ram{
+    left: 278px;
+  }
+}
+@media (max-width:322px){
+  .ram{
+    left: 268px;
+  }
+}
+@media (max-width:312px){
+  .ram{
+    left: 258px;
+  }
+}
+@media (max-width:302px){
+  .ram{
+    left: 248px;
+  }
+}
+@media (max-width:292px){
+  .ram{
+    left: 238px;
+  }
+}
+@media (max-width:282px){
+  .ram{
+    left: 228px;
+  }
+}
+@media (max-width:272px){
+  .ram{
+    left: 218px;
+  }
+}
+@media (max-width:262px){
+  .ram{
+    left: 208px;
+  }
+}
+@media (max-width:252px){
+  .ram{
+    left: 198px;
+  }
+}
+
+
