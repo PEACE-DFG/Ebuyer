@@ -179,8 +179,10 @@ function Navbar() {
 
 
     <span>
-
-        <span className='ms-4'>
+        {
+          localStorage.getItem('users')?
+          <>
+           <span className='ms-4'>
             {/* <i className='fa-solid fa-cart'></i> */}
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGRrKG8Rgpf15CNYyiYc0fUpaGaNMHFqDTh29Loq-fBVCwZ4Iy70GSq6IBZVgTrL2j0s&usqp=CAU" style={{borderRadius:'50%',width:'40px'}} alt="" /><span className='text-light fs-3 pt-5'>
            <Link to='/Cart'>
@@ -193,6 +195,9 @@ function Navbar() {
            </Link>
             </span>
         </span>
+          </>:null
+        }
+       
     </span>
     {/* </span> */}
       
